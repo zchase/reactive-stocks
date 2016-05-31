@@ -1,0 +1,28 @@
+New log file opened at Tue May 31 10:43:03 PDT 2016 by 12088@Distellis-MacBook-Pro.local
+Taking next connection to: 61570
+New client attempting to connect on port: 61571-61570
+  Address = /192.168.1.46:61570
+This client on port 61571 has uuid 89381b07-ebee-4d2f-8464-39ef3c2c5a21 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-89381b07-ebee-4d2f-8464-39ef3c2c5a21
+Taking next connection to: 61570
+New client attempting to connect on port: 61596-61570
+  Address = /192.168.1.46:61570
+Handshake exception on socket: 61596
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 61570
+New client attempting to connect on port: 61597-61570
+  Address = /192.168.1.46:61570
+This client on port 61597 has uuid a46c4d22-cde4-4b3d-97fb-a0a5c3327560 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-89381b07-ebee-4d2f-8464-39ef3c2c5a21, play-fork-run-a46c4d22-cde4-4b3d-97fb-a0a5c3327560
+Taking next connection to: 61570
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 61570
